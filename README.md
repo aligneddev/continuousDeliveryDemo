@@ -1,5 +1,5 @@
-# continuousDeliveryDemo
-Demo for http://southdakotacodecamp.net/sessions/101 about Continuous Delivery and the new Microsoft Build system in 2015
+# Continuous Delivery Presentation and Demo
+Demo for [Using Visual Studio Online's new build system to achieve a Continuous Delivery pipeline](http://southdakotacodecamp.net/sessions/101), given on November 7th, 2015. about Continuous Delivery and the new Microsoft Build system in 2015.
 
 ## Steps to get Selenium tests running
  1. Go to the test tab in the  VSO project
@@ -9,7 +9,16 @@ Demo for http://southdakotacodecamp.net/sessions/101 about Continuous Delivery a
  1. RDP into the agent, instal Firefox and other browser that you want to run tests on.
   - Azure > VM > click the connect icon. Use the user you setup when creating the VM
   - Selenium has Firefox built in. [Other browser drivers can be downloaded](http://docs.seleniumhq.org/download/).
-  
+
+## Main Points
+ 1. Microsoft has greatly improved their build system.
+ 1. You can get started quickly, but there is a lot of depth to dig into.
+ 1. Visual Studio Online gets the latest code, then it is rolled out to on premise TFS installs.
+ 1. You can build non-Microsoft technologies with it and run NodeJs NPM, Bower and Grunt/Gulp tasks in it.
+   - ![NPM in the MS build](readmeImages/javascriptbuilds.jpg)
+    - [Image credit](http://jeremylikness.github.io/Top10EnterpriseJS/#33)
+ 
+ 
 ## Links
 
 ### Continuous Delivery
@@ -17,6 +26,7 @@ Demo for http://southdakotacodecamp.net/sessions/101 about Continuous Delivery a
  - [Links to videos and talks](http://continuousdelivery.com/talks/)
  - http://blogs.msdn.com/b/uk_faculty_connection/archive/2015/09/07/continuous-integration-and-testing-using-visual-studio-online.aspx
  - http://blogs.msdn.com/b/visualstudioalm/archive/2015/05/29/testing-in-continuous-integration-and-continuous-deployment-workflows.aspx
+ 
 ### Visual Studio Online/TFS Build
  - http://www.pluralsight.com/courses/tfs-build-2015-first-look
  - [TFS 2015 release notes](https://www.visualstudio.com/news/tfs2015-update1-vs)
@@ -30,17 +40,23 @@ Demo for http://southdakotacodecamp.net/sessions/101 about Continuous Delivery a
  -  [host on GitHub build on VSO](http://ivision.com/blog/using-visual-studio-online-to-build-a-github-hosted-javascript-project-with-npm-bower-and-grunt-for-free/)
   - http://geekswithblogs.net/jakob/archive/2015/06/12/building-github-repositories-in-tfs-build-vnext.aspx
   
-#### Dig Deeper
+### Dig Deeper
  - [Generate custom build numbers](http://geekswithblogs.net/jakob/archive/2015/10/15/generate-custom-build-numbers-in-tfs-build-vnext.aspx)
  - [Technical Debt Management: Announcing SonarQube integration with MSBuild and Team Build](http://blogs.msdn.com/b/visualstudioalm/archive/2015/04/28/technical-debt-management-announcing-sonarqube-integration-with-msbuild-and-team-build.aspx)
    - [in VSO build as of Sept 1, 2015](http://www.sonarqube.org/msbuild-sonarqube-runner-now-available-on-visual-studio-online/)
  - [Test Pyramid for Automation Testing](http://martinfowler.com/bliki/TestPyramid.html)
    - [not the ice cream cone](http://watirmelon.com/2012/01/31/introducing-the-software-testing-ice-cream-cone/)
+ - [Database Change Management with CD](http://www.geekswithblogs.net/Aligned/archive/2015/01/21/databases-in-continuous-delivery.aspx)
  
-### Specifications By Example
+#### Testing (there are a lot more opinions and subject matter on this)
+  - [My articles](http://geekswithblogs.net/Aligned/category/13960.aspx)
+  - [Recommended Art of Unit Testing book and videos](http://artofunittesting.com/)
+  - [Recent DotNetRocks podcast - Mature Test-Driven Development with Justin Searls](http://dotnetrocks.com/?show=1207)
+ 
+#### Specifications By Example
  - [Suggested Specifications By Example book](http://specificationbyexample.com/)
  - http://cqrsjourney.github.io/blog/2012/05/14/Specing-Out-End-To-End-Scenarios/
  - http://stackoverflow.com/questions/3443302/specflow-bdd-examples
   
- ### Other build technology offerings:
+ #### Other build technology offerings:
   - http://www.pluralsight.com/courses/continuous-integration-psake-teamcity-getting-started
