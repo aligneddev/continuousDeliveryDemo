@@ -33,6 +33,7 @@ how does this connect to the RDP side?
    1. creates the azurewebsites.net automatically, but not in your resource group :-(
      - [move to different resource group](http://blog.kloud.com.au/2015/03/24/moving-resources-between-azure-resource-groups/) - not required
  1. add **/*.zip to publish build artifacts
+
 ## Main Points
  1. Microsoft has greatly improved their build system.
  1. You can get started quickly, but there is a lot of depth to dig into.
@@ -57,6 +58,7 @@ how does this connect to the RDP side?
  
 ### Visual Studio Online/TFS Build
  - http://www.pluralsight.com/courses/tfs-build-2015-first-look
+ - https://msdn.microsoft.com/Library/vs/alm/Build/feature-overview
  - [TFS 2015 release notes](https://www.visualstudio.com/news/tfs2015-update1-vs)
   - [Support for Azure Resource Groups in Update 1](https://www.visualstudio.com/news/tfs2015-update1-vs#azurergp)
  - http://geekswithblogs.net/jakob/archive/2015/01/15/tfs-build-vnext-ndash-a-preview.aspx
