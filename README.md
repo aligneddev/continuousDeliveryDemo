@@ -1,7 +1,6 @@
 # Continuous Delivery Presentation and Demo
 Demo for [Using Visual Studio Online's new build system to achieve a Continuous Delivery pipeline](http://southdakotacodecamp.net/sessions/101), given on November 7th, 2015. about Continuous Delivery and the new Microsoft Build system in 2015.    
 
-This is still a work in progress!
 
 ## Build setup
  1. New build - use build > Build, Deploy, and Distributed Test template
