@@ -98,6 +98,7 @@ https://msdn.microsoft.com/Library/vs/alm/Build/agents/windows
  
 ### Visual Studio Online/TFS Build
  - [Announcement of the features - new build is around 38 minutes - Nov 2014](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2014/015)
+ - [Forrester Reasearch on DevOps](http://event.lvl3.on24.com/event/10/71/20/6/rt/1/documents/resourceList1446853695802/microsoft_devops_tlp_final.pdf)
  - http://www.pluralsight.com/courses/tfs-build-2015-first-look
  - https://msdn.microsoft.com/Library/vs/alm/Build/feature-overview
  - [TFS 2015 release notes](https://www.visualstudio.com/news/tfs2015-update1-vs)
